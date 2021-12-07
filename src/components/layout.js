@@ -18,12 +18,12 @@ function Layout({ children }) {
                     <SocialModal />
 
                     {children}
+                    <Footer footerInfo={data.footerInfo} />
                 </div>
 
 
                 <div role="presentation" className="sidebar-overlay" onClick={(e)=> {document.querySelector('body').classList.toggle('sidebar-active')}}></div>
             </div>
-            <Footer footerInfo={data.footerInfo} />
         </>
     )
 }

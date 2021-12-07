@@ -1,10 +1,12 @@
 .footer {
+    margin-left: 224px;
+    width: calc(100% - 224px);
     color: rgb(255, 255, 255);
     background: #212529;
     padding: 32px 16px;
     transition: padding-left 0.2s ease 0s;
     z-index: 10;
-    width: 100%;
+    /*width: 100%;*/
     bottom: 0;
 }
 
@@ -424,6 +426,24 @@
 
 .footer-advert {
     /*height: 200px;*/
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-left: 224px;
+    width: calc(100% - 224px);
+}
+
+@include mq(969px, max) {
+    .footer-advert {
+        margin-left: 0 !important;
+        width: 100% !important;
+    }
+
+    .footer {
+        margin-left: 0 !important;
+        width: 100% !important;
+    }
 }
 
 .footer-advert-body {
