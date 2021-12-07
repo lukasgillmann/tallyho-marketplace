@@ -16,13 +16,13 @@ function ScamTokens () {
     <div className="page-content">
       <div className="scamtokens">
         <div className="advert">
-          <div class="input-group" style={{display: 'flex', alignItems: 'center'}}>
-            <input type="text" class="form-control" id="inlineFormInputGroup" style={{backgroundColor: '#1f1f1f', width: '300px'}}/>
-            <div class="input-group-prepend">
-              <div class="input-group-text" style={{height: '34px', padding: '9px 4px', backgroundColor: '#d3d3d3'}}><i className="fa fa-search"></i></div>
-            </div>
-          </div>
           <img src="/images/scamtoken/advert.jpg" alt="advert" />
+        </div>
+        <div class="input-group" style={{display: 'flex', alignItems: 'center'}}>
+          <input type="text" placeholder="Token name and Contract address" class="form-control" id="inlineFormInputGroup" style={{backgroundColor: '#1f1f1f', width: '300px'}}/>
+          <div class="input-group-prepend">
+            <div class="input-group-text" style={{height: '34px', padding: '9px 4px', backgroundColor: '#d3d3d3'}}><i className="fa fa-search"></i></div>
+          </div>
         </div>
         <ul className="coins-table-category" style={{marginBottom: 0, paddingInlineStart: 0, overflowX: 'auto', overflowY: 'hidden', whiteSpace: 'nowrap'}}>
           <li id="premium-click" className={certified ? "active" : ""} style={{'marginTop': '5px'}}> <a style={{'cursor': 'pointer'}} onClick={() => setCertified(true)}><i className="fas fa-star active"></i>Scamed Tokens</a></li>
