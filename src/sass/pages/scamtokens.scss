@@ -1,0 +1,119 @@
+.advert {
+    padding: 0;
+}
+
+.scamtokens {
+	margin: 0;
+}
+
+@include mq(852px) {
+    .scamtokens {
+        margin: 0 45px;
+    }
+
+    .advert {
+        padding: 10px 40px;
+    }
+}
+
+/*
+.coins-table-category {
+    margin-bottom: 0;
+    padding-inline-start: 0;
+}
+
+.coins-table-category a {
+    color: #e7cd86;
+    display: block;
+    padding: 10px 20px;
+    background: #303032;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    font-size: 18px;
+}
+
+.coins-table-category a:hover, a:focus {
+    color: #646464;
+    text-decoration: none;
+}
+
+.coins-table-category li.active a {
+    background: #262626;
+    color: #fff;
+}
+
+.coins-table-category>.active {
+    border-bottom: 4px solid #211f1f;
+}
+
+.coins-table-category>li {
+    display: inline-block;
+    margin-right: 2px;
+    border-top: 5px solid #494949;
+    border-left: 5px solid #211f1f;
+    border-right: 5px solid #3c3c3c;
+}
+
+table
+
+.premium-table {
+    border: 5px solid #393939;
+    background-color: #262626!important;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+}
+
+.coin-row {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    border-spacing: 10px;
+}
+
+.coin-row-s:hover {
+    background: #3f3f3f;
+}
+
+.info {
+    height: 5px;
+    font-size: 10px !important;
+    color: #ffffff;
+    font-family: 'Montserrat';
+}
+
+.coin-column {
+    vertical-align: middle;
+    display: table-cell;
+    background-color: "white";
+    font-size: 16px;
+}
+
+.coin-column-title {
+    vertical-align: middle;
+    display: table-cell;
+    background-color: "white";
+    font-size: 14px;
+}
+
+.coin-table-0 {
+    cursor: pointer;
+    border-top-left-radius: 0px;
+}
+
+.coin-row {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    border-spacing: 10px;
+}
+
+.titre-coin {
+    font-family: "Montserrat" !important;
+    color: #ffffff !important;
+    font-weight: bold;
+    line-height: 1.563;
+    font-size: 16px;
+    display: contents;
+    word-break: initial;
+}*/

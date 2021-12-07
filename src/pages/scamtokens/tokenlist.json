@@ -1,0 +1,34 @@
+{
+    "scamed": [
+        {
+            "hash": "0x8ad9c06de4fe4189b32fc627803b56f83437f0aa",
+            "avatar": "/images/scamtoken/Squidgame.png",
+            "name": "Squidgame",
+            "percentage": 9.65,
+            "price": 1.10
+        }
+    ],
+    "certificated": [
+        {
+            "hash": "0x8076c74c5e3f5852037f31ff0093eeb8c8add8d3",
+            "avatar": "/images/scamtoken/Safemoon.png",
+            "name": "Safemoon",
+            "percentage": 9.65,
+            "price": 1.10
+        },
+        {
+            "hash": "0xeb6b00f8c7e1da78fb919c810c30dde95475bdde",
+            "avatar": "/images/scamtoken/Miners.png",
+            "name": "Miners",
+            "percentage": 9.65,
+            "price": 1.10
+        },
+        {
+            "hash": "0x960cc8f437165b7362a34d95d1ec62dd2a940f00",
+            "avatar": "/images/scamtoken/Cosmic.png",
+            "name": "Cosmic",
+            "percentage": 9.65,
+            "price": 1.10
+        }
+    ]
+}

@@ -1,0 +1,66 @@
+.app-hide-1 {
+	background: rgb(26, 24, 24);
+	right: 0px;
+	position: fixed;
+	top: 80px;
+	border-radius: 0px 0px 0px 15px;
+	font-family: roboto, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	width: 250px;
+	height: 150px;
+	float: right;
+	display: inline-block;
+	transition: width 0.5s ease-in-out 0s;
+	overflow: hidden;
+	z-index: 999;
+}
+
+.app-hide-2 {
+	background: rgb(26, 24, 24);
+	right: 0px;
+	position: fixed;
+	top: 80px;
+	border-radius: 0px 0px 0px 15px;
+	font-family: roboto, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	width: 25px;
+	height: 50px;
+	float: right;
+	display: inline-block;
+	transition: width 0.5s ease-in-out 0s;
+	overflow: hidden;
+	z-index: 999;
+}
+
+.hidebtn-right span{
+	color: rgb(231, 205, 134);
+}
+
+.maintitle {
+	background-color: rgb(231, 205, 134);
+	font-size: 15px;
+	z-index: 999;
+	font-weight: bold;
+	text-align: center;
+	color: rgb(255, 255, 255);
+	display: block;
+	width: auto;
+	padding: 6px;
+	margin: 0px 0px 10px;
+	opacity: 1;
+	pointer-events: all;
+	cursor: pointer;
+}
+
+.navbar-social {
+	text-align: center;
+	font-size: 20px;
+	margin: 0px;
+	display: block;
+	width: auto;
+	opacity: 1;
+	pointer-events: all;
+	cursor: pointer;
+}
