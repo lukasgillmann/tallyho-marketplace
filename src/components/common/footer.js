@@ -12,11 +12,17 @@ function Footer(props) {
             <div className="footer-advert">
                 <div className="row footer-advert-body">
                     <div className="col-md-4 footer-advert-item1">
+                        <img src="/images/advert1.png" />
                     </div>
                     <div className="col-md-4 footer-advert-item2">
+                        <img src="/images/advert2.png" />
                     </div>
                     <div className="col-md-4 footer-advert-item3">
+                        <img src="/images/advert3.png" />
                     </div>
+                </div>
+                <div className="row">
+                    <h5>Want to advertise with us? Click here for more info.</h5>
                 </div>
             </div>
             <footer className="footer">
