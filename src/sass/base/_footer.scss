@@ -444,3 +444,23 @@
     background-color: #4472c7;
     height: 200px;
 }
+
+
+
+@include mq(852px) {
+    .footer-advert-body {
+        display: flex;
+        flex-direction: row !important;
+    }
+
+    .col-md-4 {
+        width: 33.33333%
+    }
+}
+
+@include mq(100px) {
+    .footer-advert-body {
+        display: flex;
+        flex-direction: column;
+    }
+}

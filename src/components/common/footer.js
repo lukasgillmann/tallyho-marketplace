@@ -10,7 +10,7 @@ function Footer(props) {
     return (
         <>
             <div className="container-fluid">
-                <div className="row">
+                <div className="row footer-advert-body">
                     <div className="col-md-4 footer-advert-item1">
                     </div>
                     <div className="col-md-4 footer-advert-item2">

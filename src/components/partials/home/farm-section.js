@@ -6,7 +6,7 @@ function FarmSection (props) {
 
     return (
         <>
-            <div className="container">
+            <div className="container" style={{width: '100%'}}>
                 <div className="farm-section d-flex justify-content-between flex-md-column">
                     <div className="farm-column">
                         <div className="farm-header d-flex align-items-center justify-content-between">
